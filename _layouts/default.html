@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>Collaborative Scaladoc - {{ page.title }}</title>
+    <link href="stylesheets/common.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="header" style="margin-bottom:20px">
+      <div class="site">
+        <div class="logo">
+          <a href="/"><img src="images/logo.png" alt="Collaborative Scaladoc" /></a>
+        </div>
+        <div class="menu">
+          <ul style="margin-top:20px">
+            <li><a href="http://collaborative-scaladoc.github.com/">Home</a></li>
+            <li><a href="http://github.com/collaborative-scaladoc/">Source</a></li>
+            <li><a href="http://collaborative-scaladoc.lighthouseapp.com/">Support</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="content" class="site">
+      {{ content }}
+    </div>
+    <div id="footer">
+      <div class="site">
+        <div class="links">
+          <a href="http://groups.google.com/group/collaborative-scaladoc">Mailing List</a>
+        </div>
+        <p>
+         &copy;
+          {{ site.time | date: "%Y" }}
+          Collaborative Scaladoc.
+          All rights reserved.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
