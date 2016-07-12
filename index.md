@@ -11,7 +11,7 @@ Introduction
 Goal of this project is to explore the possibility of using social
 collaboration for development of Scala project documentation. There are many
 developers using Scala that would like to collaborate on Scala platform in
-order to make it better, but does not have enough knowledge or enthusiasm to
+order to make it better, but do not have enough knowledge or enthusiasm to
 directly contribute to the development of Scala compiler and related tools.
 The Colladoc application should allow them to easily contribute by improving
 Scala documentation.
